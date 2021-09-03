@@ -1,0 +1,94 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --fuente1:'Kaisei HarunoUmi', serif;
+    --fuente2: 'Noto Sans JP', sans-serif;
+    --negro: black;
+    --blanco: white;
+}
+
+.inicio{
+    width: 100%;
+    height: 700px;
+    background-image: url(https://images.pexels.com/photos/5837019/pexels-photo-5837019.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1{
+    color: var(--negro);
+    margin-top: 0px;
+    text-align: center;
+    font-family:  var(--fuente1);
+    font-size: 70px;
+    padding-top: 80px;
+}
+
+.p{
+    text-align: center;
+    font-family: var(--fuente2);
+    font-size: 30px;
+    color: var(--negro);
+}
+
+
+.contenido{
+    width: 100%;
+    height: 350px;
+    background-color: rosybrown;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido1{
+    width: 50%;
+    border: white double 4px;
+}
+
+.contenido1 center{
+    font-size: 30px;
+    font-family: var(--fuente1);
+}
+
+.contenido1 li{
+    font-size: 20px;
+    font-family: var(--fuente2);
+}
+
+.contenido2{
+    width: 50%;
+    border: white double 4px;
+}
+
+.contenido2 center{
+    font-size: 30px;
+    font-family: var(--fuente1);
+}
+
+.contenido2 li{
+    font-size: 20px;
+    font-family: var(--fuente2);
+}
+
+.mas{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.mas a{
+    font-size: 35px;
+    color: var(--negro);
+    text-decoration: none;
+    font-family: var(--font1);
+}
+
+.mas :hover{
+    color: var(--color1 );
+    transition: 200ms;
+}
